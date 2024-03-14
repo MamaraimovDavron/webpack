@@ -17,6 +17,7 @@
 
 .container {
   width: 100%;
+  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -233,4 +234,169 @@
   font-size: 18px;
   text-align: center;
   font-weight: 400;
+}
+
+/* Best.jsx */
+
+.best-container {
+  width: 100%;
+  /* height: 90vh; */
+  padding: 100px 120px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+
+.best-container .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  width: 60%;
+}
+
+.best-container .left h1 {
+  width: 671px;
+  height: 90px;
+  font-family: "Rosario", sans-serif;
+  font-size: 70px;
+  color: #222222;
+}
+
+.best-container .left p {
+  font-size: 18px;
+  color: #555555;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  width: 637px;
+  height: 90px;
+  text-align: left;
+}
+
+.best-container .left .card-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.best-container .left .card-box .card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 500px;
+  height: 160px;
+  padding: 40px 60px;
+  border-radius: 4px;
+  transition: all 0.3s linear;
+}
+
+.best-container .left .card-box .card:hover {
+  background-color: #f3fbf8;
+  cursor: pointer;
+}
+
+.best-container
+  .left
+  .card-box
+  .card:hover
+  .best-container
+  .left
+  .card-box
+  .card
+  .card-left
+  a {
+  background-color: white;
+}
+
+.best-container .left .card-box .card .card-left a {
+  text-decoration: none;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f3fbf8;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px; */
+}
+
+.best-container .left .card-box .card .card-left a .icon {
+  color: #09a66d;
+}
+
+.best-container .left .card-box .card .card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.best-container .left .card-box .card .card-right h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  height: 30px;
+  color: #222222;
+}
+
+.best-container .left .card-box .card .card-right p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 278px;
+  height: 40px;
+  color: #555555;
+}
+
+.best-container .right {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.best-container .right .line {
+  position: absolute;
+  top: -120px;
+  left: -400px;
+  width: 944px;
+  height: 532px;
+  z-index: -1;
+}
+
+.best-container .right .imgBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  top: 220px;
+}
+
+#person {
+  position: absolute;
+  z-index: 1;
+}
+
+#circle {
+  position: absolute;
+  z-index: -1;
+}
+
+#left {
+  position: absolute;
+}
+
+#right {
+  position: absolute;
+}
+
+#ellipse {
+  position: absolute;
+  left: 150px;
 }

@@ -2,18 +2,18 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import parsley from "../imgs/parsley.png";
 import vegetables from "../imgs/vegetables.png";
-import { FaRegUser } from "react-icons/fa";
-import { FaRegStar } from "react-icons/fa";
+import { FaUserAlt } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import { GiGoldMine } from "react-icons/gi";
 
 const data = [
   {
-    icon: <FaRegUser style={{ color: "#09A66D", fontSize: "32px" }} />,
+    icon: <FaUserAlt style={{ color: "#09A66D", fontSize: "32px" }} />,
     userNum: "30K",
     text: "User Order",
   },
   {
-    icon: <FaRegStar style={{ color: "##FED42D", fontSize: "32px" }} />,
+    icon: <FaStar style={{ color: "#FED42D", fontSize: "32px" }} />,
     userNum: "20K",
     text: "Reviews(4.8)",
   },
