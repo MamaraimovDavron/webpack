@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
-import parsley from "../imgs/parsley.png";
+import parsley from "../imgs/imgsBest/parsley.png";
 import vegetables from "../imgs/vegetables.png";
 import { FaUserAlt } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
