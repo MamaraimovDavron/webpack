@@ -1,5 +1,6 @@
 import React from "react";
 import Best from "./components/Best.jsx";
+import Customer from "./components/Customer.jsx";
 import Header from "./components/Header.jsx";
 import Navbar from "./components/Navbar.jsx";
 import { SpecialItems } from "./components/SpecialItems.jsx";
@@ -13,6 +14,7 @@ class App extends React.Component {
         <Header />
         <Best />
         <SpecialItems />
+        <Customer />
       </div>
     );
   }
