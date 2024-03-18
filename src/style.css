@@ -500,16 +500,15 @@
   flex-direction: row;
   width: 100%;
   align-items: center;
-  border: 1px solid green;
 }
 
 .customer-container .topBox .left {
-  border: 1px solid yellow;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 55%;
-  gap: 20px;
+  gap: 40px;
+  padding-bottom: 50px;
 }
 
 .customer-container .topBox .left h1 {
@@ -535,13 +534,152 @@
 .customer-container .topBox .left .box {
   display: flex;
   flex-direction: row;
-  border: 1px solid;
   align-items: center;
   justify-content: center;
   gap: 100px;
 }
 
-.customer-container .topBox .right {
+.customer-container .topBox .left .box .nameStar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.customer-container .topBox .left .box .nameStar h4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+}
+
+.customer-container .topBox .left .box .nameStar .stars {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.customer-container .topBox .left .box .nameStar .stars a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #f1b90b;
+}
+
+.customer-container .topBox .left .box .arrows {
+  width: 260px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.customer-container .topBox .left .box .arrows a {
+  text-decoration: none;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #cccccc;
+  border: 1px solid #cccccc;
+}
+
+.customer-container .topBox .left .box .arrows a:hover {
+  background-color: #09a66d;
+  border: 1px solid #09a66d;
+  transition: 0.4s all linear;
+  font-size: 20px;
+}
+
+.customer-container .topBox .left .box .arrows a .icon {
+  color: #cccccc;
+}
+.customer-container
+  .topBox
+  .left
+  .box
+  .nameStar
+  .customer-container
+  .topBox
+  .right {
   border: 1px solid gray;
   width: 45%;
+}
+
+.customer-container .topBox .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.customer-container .topBox .right .avatarBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #f3fbf8;
+  z-index: 1;
+  position: relative;
+}
+
+.customer-container .topBox .right .avatarBox #bigAvatar {
+  width: 447px;
+  height: 447px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.customer-container .topBox .right .boxcha {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 220px;
+  height: 80px;
+  border-radius: 12px;
+  padding: 12px;
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  gap: 10px;
+  background-color: white;
+}
+
+.customer-container .topBox .right .boxcha .starsSpan .icon {
+  font-size: 15px;
+  color: #f1b90b;
+}
+
+.customer-container .topBox .right .boxcha .avatars {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+}
+
+.customer-container .topBox .right .boxcha .avatars img {
+  position: absolute;
+}
+
+.customer-container .topBox .right .boxcha .avatars img:nth-child(1) {
+  left: 24px;
+}
+
+.customer-container .topBox .right .boxcha .avatars img:nth-child(2) {
+  left: 48px;
+}
+
+.customer-container .topBox .right .boxcha .avatars img:nth-child(3) {
+  left: 72px;
+}
+
+.customer-container .topBox .right .boxcha .avatars img:nth-child(4) {
+  left: 96px;
+}
+
+.customer-container .topBox .right .boxcha .avatars img:nth-child(5) {
+  left: 120px;
 }

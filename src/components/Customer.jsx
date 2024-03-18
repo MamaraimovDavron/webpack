@@ -3,6 +3,11 @@ import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import bigAvatar from "../imgs/avatars/bohemian-man-with-his-arms-crossed 1.png";
+import avatar1 from "../imgs/avatars/Ellipse 116.png";
+import avatar2 from "../imgs/avatars/Ellipse 123.png";
+import avatar3 from "../imgs/avatars/Ellipse 124.png";
+import avatar4 from "../imgs/avatars/Ellipse 125.png";
 
 const Customer = () => {
   return (
@@ -22,7 +27,8 @@ const Customer = () => {
           <div className="box">
             <div className="nameStar">
               <h4>Ahmed Hridoy</h4>
-              <span>
+
+              <span className="stars">
                 <a href="!#">
                   <FaStar />
                 </a>
@@ -43,17 +49,37 @@ const Customer = () => {
 
             <div className="arrows">
               <a href="!#">
-                <IoIosArrowBack />
+                <IoIosArrowBack className="icon" />
               </a>
               <a href="!#">
-                <IoIosArrowForward />
+                <IoIosArrowForward className="icon" />
               </a>
             </div>
           </div>
         </div>
 
         <div className="right">
-          <img src="" alt="" />
+          <div className="avatarBox">
+            <img src={bigAvatar} alt="" id="bigAvatar" />
+          </div>
+          <div className="boxcha">
+            <span className="starsSpan">
+              <FaStar className="icon" />
+              <FaStar className="icon" />
+              <FaStar className="icon" />
+              <FaStar className="icon" />
+              <FaStarHalfAlt className="icon" />
+            </span>
+
+            <span className="avatars">
+              <img src={avatar1} alt="" />
+              <img src={avatar2} alt="" />
+              <img src={avatar3} alt="" />
+              <img src={avatar4} alt="" />
+              <img src={avatar3} alt="" />
+              <img src={avatar4} alt="" />
+            </span>
+          </div>
         </div>
       </div>
     </div>
