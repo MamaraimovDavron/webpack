@@ -20,6 +20,11 @@
   overflow-x: hidden;
 }
 
+.planet {
+  width: 56px;
+  height: 56px;
+}
+
 /* Navbar */
 
 .container .Navbar {
@@ -500,6 +505,7 @@
   flex-direction: row;
   width: 100%;
   align-items: center;
+  justify-content: center;
 }
 
 .customer-container .topBox .left {
@@ -682,4 +688,259 @@
 
 .customer-container .topBox .right .boxcha .avatars img:nth-child(5) {
   left: 120px;
+}
+
+.middle-box {
+  padding: 100px 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.middle-box .left {
+  width: 30%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-box .left .img1 {
+  z-index: -1;
+  position: absolute;
+  left: 60px;
+}
+
+.middle-box .right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.middle-box .right a {
+  text-decoration: none;
+  width: 170px;
+  height: 40px;
+  background-color: #f3fbf8;
+  border-radius: 50px;
+  color: #333333;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-box .right h1 {
+  width: 663px;
+  height: 180px;
+  font-family: "Rosario", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+}
+
+.middle-box .right p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  color: #555555;
+  width: 575px;
+  height: 90px;
+}
+
+.middle-box .right .markets {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.middle-box .right .markets .appStore {
+  width: 104px;
+  height: 30px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  gap: 5px;
+}
+
+.middle-box .right .markets .appStore:hover {
+  cursor: pointer;
+}
+
+.middle-box .right .markets .appStore .icon {
+  color: white;
+  font-size: 22px;
+}
+
+.middle-box .right .markets .appStore .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.middle-box .right .markets .appStore .text h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  color: white;
+}
+
+.middle-box .right .markets .appStore .text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+.middle-box .right .markets .playMarket {
+  width: 104px;
+  height: 30px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  gap: 5px;
+}
+
+.middle-box .right .markets .playMarket:hover {
+  cursor: pointer;
+}
+
+.middle-box .right .markets .playMarket .icon {
+  color: white;
+  font-size: 22px;
+}
+
+.middle-box .right .markets .playMarket .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.middle-box .right .markets .playMarket .text h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  color: white;
+}
+
+.middle-box .right .markets .playMarket .text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 120px;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  height: 22vh;
+}
+
+.box .email {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.44px;
+  text-align: left;
+  color: #222222;
+}
+
+.box h3 {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31.25px;
+  text-align: left;
+  color: #222222;
+}
+
+.box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.box ul li {
+  list-style-type: none;
+}
+
+.box ul li a {
+  text-decoration: none;
+  color: #555555;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.44px;
+  text-align: left;
+}
+
+.box .socialMedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.box .socialMedia .icon {
+  font-size: 23px;
+}
+
+.globe {
+  width: 40%;
+}
+
+#planet1 {
+  width: 70px;
+  height: 70px;
+}
+
+.globe p {
+  width: 345.36px;
+  height: 150px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #555555;
+}
+
+.navigation {
+  width: 20%;
+}
+
+.resources {
+  width: 20%;
+}
+
+.contact {
+  width: 20%;
 }

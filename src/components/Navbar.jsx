@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../imgs/planet-earth (1) 1.png";
+import img1 from "../imgs/imgsBest/c83b249c64943e53c12013e7a35da769.jpg";
 import { IoSearch } from "react-icons/io5";
 import { IoCartOutline } from "react-icons/io5";
 
@@ -22,7 +22,7 @@ const Navbar = () => {
       </ul>
 
       <div className="img">
-        <img src={img1} alt="planet-earth" />
+        <img src={img1} alt="planet-earth" className="planet" />
       </div>
 
       <ul className="right">
